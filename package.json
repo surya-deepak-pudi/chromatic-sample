@@ -15,7 +15,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "chromatic": "npx chromatic --project-token=chpt_ea0c81391e3d1aa"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,9 @@
     "Sass",
     "Storybook"
   ],
-  "author": "Harvey Delaney",
+  "author": {
+    "name": "Harvey Delaney"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HarveyD/react-component-library/issues"
@@ -55,6 +58,7 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
+    "chromatic": "^6.18.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "react": "^16.14.0",
@@ -66,5 +70,7 @@
     "rollup-plugin-typescript2": "^0.29.0",
     "ts-jest": "^26.5.6",
     "typescript": "^4.8.4"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "react-component-library@1.0.0"
 }
