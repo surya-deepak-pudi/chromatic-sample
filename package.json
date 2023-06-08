@@ -13,7 +13,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
-    "storybook:export": "build-storybook --openssl-legacy-provider start",
+    "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
     "prepublishOnly": "run-s npm i npm run build",
     "test-build": "npm run i && npm run build",
